@@ -9,19 +9,25 @@ import { TooltipModule } from 'primeng/primeng';
 import { AppComponent } from './app.component';
 import { LancamentoPesquisaComponent } from './lancamento-pesquisa/lancamento-pesquisa.component';
 import { NavBarComponent } from './nav-bar/nav-bar.component';
+import { PessoaPesquisaComponent } from './pessoa-pesquisa/pessoa-pesquisa.component';
+import { LancamentoCadastroComponent } from './lancamento-cadastro/lancamento-cadastro.component';
+import { InputTextareaModule } from "primeng/components/inputtextarea/inputtextarea";
 
 @NgModule({
   declarations: [
     AppComponent,
     LancamentoPesquisaComponent,
-    NavBarComponent
+    NavBarComponent,
+    PessoaPesquisaComponent,
+    LancamentoCadastroComponent
   ],
   imports: [
     BrowserModule,
     InputTextModule,
     ButtonModule,
     DataTableModule,
-    TooltipModule
+    TooltipModule,
+    InputTextareaModule
   ],
   providers: [],
   bootstrap: [AppComponent]
