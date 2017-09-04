@@ -15,7 +15,6 @@ import { ButtonModule } from 'primeng/components/button/button';
 import { InputTextModule } from 'primeng/components/inputtext/inputtext';
 import { InputMaskModule } from 'primeng/components/inputmask/inputmask';
 
-import { LancamentosGridComponent } from './lancamentos-grid/lancamentos-grid.component';
 import { LancamentoPesquisaComponent } from './lancamento-pesquisa/lancamento-pesquisa.component';
 import { LancamentoCadastroComponent } from './lancamento-cadastro/lancamento-cadastro.component';
 
@@ -28,8 +27,6 @@ import { LancamentoCadastroComponent } from './lancamento-cadastro/lancamento-ca
     CommonModule,
     FormsModule,
 
-    SharedModule,
-
     InputTextModule,
     ButtonModule,
     DataTableModule,
@@ -38,13 +35,14 @@ import { LancamentoCadastroComponent } from './lancamento-cadastro/lancamento-ca
     CalendarModule,
     SelectButtonModule,
     DropdownModule,
+    CurrencyMaskModule,
 
-    CurrencyMaskModule
+    SharedModule
+
   ],
   declarations: [
     LancamentoCadastroComponent,
     LancamentoPesquisaComponent,
-    LancamentosGridComponent
   ],
   exports: [
     LancamentoCadastroComponent,
